@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Conversation Engine
+        </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body>
+        <style>
+            h1{
+                font-family: Book Antiqua;
+            }
+            body {
+              background-image: url('https://st3.depositphotos.com/12982378/36297/i/600/depositphotos_362978634-stock-photo-cropped-view-woman-showing-letters.jpg');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: 100% 100%;
+              backdrop-filter: blur(5px);
+            }
+            p{
+                font-family: 
+            }
+            </style>
+        	<div class="container-fluid" style="margin-top: 20px;">
+            <h1 style="color: #440475; margin-bottom: 10px; text-align: center;"><strong>CONVERSATION PORTAL</strong></h1>
+<br><br>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 ">
+                <img src="{{ url_for('video_feed') }}" width="100%">
+                </div>
+                <div class="col-lg-6 col-md-6" style="font-size: 25px; color: #000075; font-weight: bold;">
+                <h2><strong>Hi! Welcome User!</strong></h2> <br><br>
+                <p>We created this application to help out specially abled people to communicate with rest of the world using sign language.</p><br><br>
+                <p>We Hope you have a smooth experience!</p><br>
+                <p>Thanks for using our portal. Visit again!</p>
+                </div>
+            </div>
+        </div>
+        </body>
+</html>
